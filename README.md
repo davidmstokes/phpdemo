@@ -5,4 +5,4 @@
 
 # The examples herein are built on PHP 7.2 and MySQL 8 with the XDevAPP PECL extension
 
-# Dave Stokes  at Oracle.com
+# Dave Stokes  email: David.Stokes at Oracle.com
