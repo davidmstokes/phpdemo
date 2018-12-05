@@ -12,7 +12,11 @@
 */
 
 # Open session to MySQL Server
+try {
 $session = mysql_xdevapi\getSession("mysqlx://myuser:mypass@localhost");
+} catch(Exception $e) {
+    die("Connection could not be established: " . $e->getMessage());
+}
 
 # Client ID information
 $clientid = $session->getClientId();
